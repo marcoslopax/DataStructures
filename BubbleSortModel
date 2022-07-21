@@ -1,0 +1,17 @@
+// Bolha (numeros [] inteiro)
+//   inicio_modulo
+//    Declarar
+//      constante n <- numeros.tamanho inteiro;
+//      aux, i, j inteiro;
+
+//      para i de 0 até n-2 passo +1 faça
+//        para j de 0 até n-2-i passo +1 faça
+//          se (numeros[j] > numeros[j+1])
+//            então
+//              aux <- numeros [j];
+//              numeros[j] <- numeros[j+1];
+//              numeros[j+1] <= aux;
+//            fimse;
+//          fimpara;
+//         fimpara;
+// fim_modulo;
