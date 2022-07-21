@@ -1,0 +1,12 @@
+// quicksort (p inteiro, q inteiro, vetor [] inteiro)
+//  inicio_modulo
+//    Declarar
+//      x inteiro;
+
+//      se (p < q)
+//        então
+//          x <- particao (p, q, vetor);
+//          quicksort(p, x - 1, vetor);
+//          quicksort(x + 1, q, vetor);
+//      fimse;
+// fimMódulo;
