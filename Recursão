@@ -1,0 +1,25 @@
+// Recursão com Cauda e Sem Cauda
+
+// Recursão com Cauda
+// inteiro fat (inteiro n)
+//  inicio
+//    Declarar f inteiro;
+//    
+//    se (n = 0) então
+//          retornar 1; // regra 1
+//    senão
+//          retornar n * fat(n-1); // regra 2 e 3
+//    fimse;
+// fim_modulo;
+
+
+// Recursão sem Cauda
+// fat (inteiro n, inteiro f)
+//  inicio
+//    se (n > i) então // regra 1
+//      então
+//        fat (n-1, f * n); regra 2 e 3
+//      senão
+//        escrever ("O fatorial é " + f);
+//    fimse;
+//fim_módulo;
