@@ -1,0 +1,14 @@
+// mergeSort(a[] numérico_inteiro, inicio numérico_inteiro, fim numérico_inteiro)
+//  inicio_modulo
+//    Declarar
+//      meio numérico_inteiro;
+//
+//    se (inicio = fim)
+//      então
+//        retornar;
+//    fimse;
+//    meio <- (inicio + fim) / 2;
+//    mergeSort (a, inicio, meio);
+//    mergeSort (a, meio + 1, fim);
+//    mergeSort (a, inicio, meio, fim);
+// fimmódulo;
